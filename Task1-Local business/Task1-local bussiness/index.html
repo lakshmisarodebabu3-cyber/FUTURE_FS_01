@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew Haven Café – Fresh Coffee. Cozy Vibes.</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Playfair Display (display) + DM Sans (body) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Brew Haven</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#menu"     class="nav-link">Menu</a></li>
+        <li><a href="#booking"  class="nav-link">Book a Table</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#gallery"  class="nav-link">Gallery</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-texture"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Welcome to</p>
+      <h1 class="hero-title">Brew Haven<br /><em>Café</em></h1>
+      <p class="hero-tagline">Fresh Coffee. Cozy Vibes.</p>
+      <p class="hero-sub">Your neighbourhood escape — where every cup tells a story and every seat feels like home.</p>
+      <div class="hero-cta">
+        <a href="#menu"    class="btn btn-primary">View Menu</a>
+        <a href="#booking" class="btn btn-outline">Book a Table</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>5+</strong><span>Years of Craft</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>30+</strong><span>Menu Items</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>4.8★</strong><span>Google Rating</span></div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-image-frame">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=700&q=80" alt="Cozy café interior" class="hero-img" />
+        <div class="hero-badge">
+          <span class="badge-icon">☕</span>
+          <span>Open Today<br /><strong>8am – 10pm</strong></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ANNOUNCEMENT STRIP ===================== -->
+  <div class="strip">
+    <div class="strip-track">
+      <span>☕ Freshly Roasted Beans</span>
+      <span class="strip-dot">·</span>
+      <span>🥐 Baked Every Morning</span>
+      <span class="strip-dot">·</span>
+      <span>🌿 Plant-Based Options Available</span>
+      <span class="strip-dot">·</span>
+      <span>📶 Free High-Speed Wi-Fi</span>
+      <span class="strip-dot">·</span>
+      <span>🎵 Live Music on Fridays</span>
+      <span class="strip-dot">·</span>
+      <span>☕ Freshly Roasted Beans</span>
+      <span class="strip-dot">·</span>
+      <span>🥐 Baked Every Morning</span>
+      <span class="strip-dot">·</span>
+      <span>🌿 Plant-Based Options Available</span>
+      <span class="strip-dot">·</span>
+      <span>📶 Free High-Speed Wi-Fi</span>
+      <span class="strip-dot">·</span>
+      <span>🎵 Live Music on Fridays</span>
+    </div>
+  </div>
+
+  <!-- ===================== MENU ===================== -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What We Serve</p>
+        <h2 class="section-title">Our Menu</h2>
+        <p class="section-desc">Crafted with love, served with warmth. Every item is made fresh daily.</p>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="coffee">☕ Coffee</button>
+        <button class="tab-btn" data-tab="food">🍽️ Food</button>
+        <button class="tab-btn" data-tab="desserts">🍰 Desserts</button>
+      </div>
+
+      <!-- ═══════════ COFFEE TAB ═══════════ -->
+      <div class="menu-grid tab-content" id="tab-coffee">
+
+        <div class="menu-card featured-card">
+          <div class="menu-card-ribbon">Bestseller</div>
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500&q=85" alt="Espresso" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Espresso</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot</span>
+              <span class="meta-badge badge-veg">☕ Single Origin</span>
+              <span class="meta-badge">⏱ 3 min</span>
+            </div>
+            <p>Bold, rich single-origin espresso from Coorg farms, pulled to perfection. The purist's choice.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹120</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order">
+                <i class="fa fa-plus"></i> Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&q=85" alt="Cappuccino" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Cappuccino</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot</span>
+              <span class="meta-badge">☁️ Microfoam</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Espresso with velvety steamed milk and a thick, cloud-like layer of creamy microfoam.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹160</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?w=500&q=85" alt="Café Latte" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Café Latte</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot</span>
+              <span class="meta-badge badge-fav">❤️ Fan Favourite</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Smooth espresso blended with silky steamed milk and delicate latte art. Comforting and beautiful.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹180</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500&q=85" alt="Hazelnut Latte" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Hazelnut Latte</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Espresso with rich hazelnut syrup and velvety steamed milk. Sweet, nutty and absolutely irresistible.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹210</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=500&q=85" alt="Mocha" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Café Mocha</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot</span>
+              <span class="meta-badge">🍫 Belgian Choc</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Rich espresso meets premium Belgian chocolate and velvety steamed milk. The perfect sweet spot.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹200</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?w=500&q=85" alt="Matcha Latte" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Matcha Latte</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot / ❄️ Iced</span>
+              <span class="meta-badge badge-new">📈 Trending</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Ceremonial-grade Japanese matcha whisked smooth with creamy oat milk. Earthy, calming, beautiful.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹210</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&q=85" alt="Flat White" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Flat White</h3>
+              <div class="rating">★★★★☆</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-hot">🔥 Hot</span>
+              <span class="meta-badge">🇦🇺 Aussie Style</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Double ristretto with velvety micro-foamed whole milk. Stronger than a latte, creamier than an espresso.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹190</span>
+                <span class="price-note">per cup</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=500&q=85" alt="Dalgona Coffee" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Dalgona Coffee</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-cold">❄️ Iced</span>
+              <span class="meta-badge badge-new">✨ Viral Hit</span>
+              <span class="meta-badge">⏱ 8 min</span>
+            </div>
+            <p>Whipped instant coffee foam floated over chilled milk. Insta-worthy and absolutely delicious.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹230</span>
+                <span class="price-note">per glass</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ═══════════ FOOD TAB ═══════════ -->
+      <div class="menu-grid tab-content" id="tab-food">
+
+        <div class="menu-card featured-card">
+          <div class="menu-card-ribbon">Chef's Pick</div>
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=85" alt="Grilled Chicken Sandwich" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Grilled Chicken Sandwich</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-nonveg">🍗 Non-Veg</span>
+              <span class="meta-badge">🌶️ Medium Spice</span>
+              <span class="meta-badge">⏱ 15 min</span>
+            </div>
+            <p>Herb-marinated grilled chicken, fresh avocado, crisp lettuce on toasted sourdough. Served with seasoned fries.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹280</span>
+                <span class="price-note">with fries</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500&q=85" alt="Pesto Pasta" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Basil Pesto Pasta</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🌿 Veg</span>
+              <span class="meta-badge">🍝 Italian</span>
+              <span class="meta-badge">⏱ 20 min</span>
+            </div>
+            <p>Al-dente fusilli tossed in house-made basil pesto with cherry tomatoes, aged parmesan and pine nuts.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹320</span>
+                <span class="price-note">full portion</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85" alt="Brew Signature Burger" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Brew Signature Burger</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-nonveg">🍗 Non-Veg</span>
+              <span class="meta-badge">🔥 Spicy</span>
+              <span class="meta-badge">⏱ 20 min</span>
+            </div>
+            <p>Double chicken patty, aged cheddar, caramelized onions, pickles and our legendary secret brew sauce.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹380</span>
+                <span class="price-note">with coleslaw</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500&q=85" alt="Avocado Toast" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Avocado Toast</h3>
+              <div class="rating">★★★★☆</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-vegan">🥑 Vegan</span>
+              <span class="meta-badge">💪 Healthy</span>
+              <span class="meta-badge">⏱ 10 min</span>
+            </div>
+            <p>Smashed Hass avocado on multigrain toast with radishes, pumpkin seeds, microgreens and chilli oil.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹260</span>
+                <span class="price-note">per plate</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85" alt="Fluffy Pancakes" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Fluffy Pancakes</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🥞 Veg</span>
+              <span class="meta-badge badge-fav">🍓 Weekend Special</span>
+              <span class="meta-badge">⏱ 15 min</span>
+            </div>
+            <p>Three cloud-like buttermilk pancakes with warm maple syrup, fresh strawberries and whipped cream.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹240</span>
+                <span class="price-note">stack of 3</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&q=85" alt="Power Bowl" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Power Bowl</h3>
+              <div class="rating">★★★★☆</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-vegan">🥗 Vegan</span>
+              <span class="meta-badge">💪 High Protein</span>
+              <span class="meta-badge">⏱ 15 min</span>
+            </div>
+            <p>Quinoa, roasted seasonal vegetables, hummus, pickled beets, edamame and house tahini dressing.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹300</span>
+                <span class="price-note">full bowl</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85" alt="Margherita Pizza" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Margherita Pizza</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍕 Veg</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">⏱ 25 min</span>
+            </div>
+            <p>Hand-stretched thin crust with San Marzano tomato sauce, fresh mozzarella di bufala and basil leaves.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹350</span>
+                <span class="price-note">8 inch</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=85" alt="Mediterranean Salad" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mediterranean Salad</h3>
+              <div class="rating">★★★★☆</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-vegan">🥗 Vegan</span>
+              <span class="meta-badge">🫒 Fresh</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Crispy romaine, cucumber, kalamata olives, cherry tomatoes, crumbled feta with lemon-herb vinaigrette.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹220</span>
+                <span class="price-note">large bowl</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=85" alt="Masala Omelette" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Masala Omelette</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-nonveg">🥚 Egg</span>
+              <span class="meta-badge">🌶️ Spiced</span>
+              <span class="meta-badge">⏱ 10 min</span>
+            </div>
+            <p>Three-egg fluffy omelette with onions, green chillies, tomatoes, coriander and a side of toasted bread.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹180</span>
+                <span class="price-note">with toast</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&q=85" alt="French Toast" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>French Toast</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍞 Veg</span>
+              <span class="meta-badge badge-fav">❤️ Favourite</span>
+              <span class="meta-badge">⏱ 12 min</span>
+            </div>
+            <p>Thick brioche slices soaked in vanilla custard, pan-fried golden brown. Topped with powdered sugar and jam.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹200</span>
+                <span class="price-note">2 slices</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ═══════════ DESSERTS TAB ═══════════ -->
+      <div class="menu-grid tab-content" id="tab-desserts">
+
+        <div class="menu-card featured-card">
+          <div class="menu-card-ribbon">Bestseller</div>
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&q=85" alt="New York Cheesecake" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>New York Cheesecake</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🧁 Baked Fresh</span>
+              <span class="meta-badge">🍓 Berry Coulis</span>
+              <span class="meta-badge">⏱ Ready</span>
+            </div>
+            <p>Silky-smooth classic cheesecake on a buttery graham cracker crust with seasonal berry coulis. Simply heavenly.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹200</span>
+                <span class="price-note">per slice</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=85" alt="Dark Chocolate Cake" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Dark Chocolate Cake</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍫 Belgian Choc</span>
+              <span class="meta-badge">🔥 Warm Served</span>
+              <span class="meta-badge">⏱ Ready</span>
+            </div>
+            <p>Decadent layers of moist chocolate sponge with rich ganache and chocolate buttercream. A chocoholic's dream.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹220</span>
+                <span class="price-note">per slice</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&q=85" alt="Belgian Waffles" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Belgian Waffles</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🧇 Veg</span>
+              <span class="meta-badge badge-fav">🍌 Weekend Special</span>
+              <span class="meta-badge">⏱ 12 min</span>
+            </div>
+            <p>Crispy outside, cloud-like inside. Topped with Nutella, fresh banana slices and powdered sugar dust.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹240</span>
+                <span class="price-note">2 waffles</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=85" alt="French Macarons" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>French Macarons</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🌹 Rose</span>
+              <span class="meta-badge">🍇 Pistachio</span>
+              <span class="meta-badge">🍋 Lemon</span>
+            </div>
+            <p>Delicate almond shells with rotating fillings — pistachio, rose, vanilla and raspberry. Changes daily.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹280</span>
+                <span class="price-note">set of 4</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=500&q=85" alt="Tiramisu" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Classic Tiramisu</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">☕ Coffee-Soaked</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">🇮🇹 Italian</span>
+            </div>
+            <p>Espresso-soaked ladyfingers layered with mascarpone cream and dusted with premium Valrhona cocoa powder.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹260</span>
+                <span class="price-note">per portion</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=500&q=85" alt="Mango Sorbet" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mango Sorbet</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-vegan">🥭 Alphonso</span>
+              <span class="meta-badge">🌿 Vegan</span>
+              <span class="meta-badge">❄️ Seasonal</span>
+            </div>
+            <p>Handcrafted Alphonso mango sorbet with a whisper of cardamom and lime zest. Light, dairy-free and divine.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹180</span>
+                <span class="price-note">2 scoops</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500&q=85" alt="Lava Cake" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Chocolate Lava Cake</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍫 Molten Centre</span>
+              <span class="meta-badge badge-fav">❤️ Must Try</span>
+              <span class="meta-badge">⏱ 15 min</span>
+            </div>
+            <p>Warm chocolate cake with a gooey molten centre, served with a scoop of vanilla bean ice cream. Life-changing.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹280</span>
+                <span class="price-note">with ice cream</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1516684732162-798a0062be99?w=500&q=85" alt="Creme Brulee" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Crème Brûlée</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍮 French Classic</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">⏱ Ready</span>
+            </div>
+            <p>Velvety vanilla custard topped with a perfectly caramelized sugar crust. Crack through it — pure joy.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹240</span>
+                <span class="price-note">per ramekin</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+       <div class="menu-card-top">
+              <h3>Margherita Pizza</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍕 Veg</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">⏱ 25 min</span>
+            </div>
+            <p>Hand-stretched thin crust with San Marzano tomato sauce, fresh mozzarella di bufala and basil leaves.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹350</span>
+                <span class="price-note">8 inch</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=85" alt="Mediterranean Salad" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mediterranean Salad</h3>
+              <div class="rating">★★★★☆</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-vegan">🥗 Vegan</span>
+              <span class="meta-badge">🫒 Fresh</span>
+              <span class="meta-badge">⏱ 5 min</span>
+            </div>
+            <p>Crispy romaine, cucumber, kalamata olives, cherry tomatoes, crumbled feta with lemon-herb vinaigrette.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹220</span>
+                <span class="price-note">large bowl</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=85" alt="Masala Omelette" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Masala Omelette</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-nonveg">🥚 Egg</span>
+              <span class="meta-badge">🌶️ Spiced</span>
+              <span class="meta-badge">⏱ 10 min</span>
+            </div>
+            <p>Three-egg fluffy omelette with onions, green chillies, tomatoes, coriander and a side of toasted bread.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹180</span>
+                <span class="price-note">with toast</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&q=85" alt="French Toast" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>French Toast</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍞 Veg</span>
+              <span class="meta-badge badge-fav">❤️ Favourite</span>
+              <span class="meta-badge">⏱ 12 min</span>
+            </div>
+            <p>Thick brioche slices soaked in vanilla custard, pan-fried golden brown. Topped with powdered sugar and jam.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹200</span>
+                <span class="price-note">2 slices</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ═══════════ DESSERTS TAB ═══════════ -->
+      <div class="menu-grid tab-content" id="tab-desserts">
+
+        <div class="menu-card featured-card">
+          <div class="menu-card-ribbon">Bestseller</div>
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&q=85" alt="New York Cheesecake" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>New York Cheesecake</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🧁 Baked Fresh</span>
+              <span class="meta-badge">🍓 Berry Coulis</span>
+              <span class="meta-badge">⏱ Ready</span>
+            </div>
+            <p>Silky-smooth classic cheesecake on a buttery graham cracker crust with seasonal berry coulis. Simply heavenly.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹200</span>
+                <span class="price-note">per slice</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=85" alt="Dark Chocolate Cake" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Dark Chocolate Cake</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍫 Belgian Choc</span>
+              <span class="meta-badge">🔥 Warm Served</span>
+              <span class="meta-badge">⏱ Ready</span>
+            </div>
+            <p>Decadent layers of moist chocolate sponge with rich ganache and chocolate buttercream. A chocoholic's dream.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹220</span>
+                <span class="price-note">per slice</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&q=85" alt="Belgian Waffles" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Belgian Waffles</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🧇 Veg</span>
+              <span class="meta-badge badge-fav">🍌 Weekend Special</span>
+              <span class="meta-badge">⏱ 12 min</span>
+            </div>
+            <p>Crispy outside, cloud-like inside. Topped with Nutella, fresh banana slices and powdered sugar dust.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹240</span>
+                <span class="price-note">2 waffles</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=85" alt="French Macarons" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>French Macarons</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🌹 Rose</span>
+              <span class="meta-badge">🍇 Pistachio</span>
+              <span class="meta-badge">🍋 Lemon</span>
+            </div>
+            <p>Delicate almond shells with rotating fillings — pistachio, rose, vanilla and raspberry. Changes daily.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹280</span>
+                <span class="price-note">set of 4</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=500&q=85" alt="Tiramisu" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Classic Tiramisu</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">☕ Coffee-Soaked</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">🇮🇹 Italian</span>
+            </div>
+            <p>Espresso-soaked ladyfingers layered with mascarpone cream and dusted with premium Valrhona cocoa powder.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹260</span>
+                <span class="price-note">per portion</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=500&q=85" alt="Mango Sorbet" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mango Sorbet</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-vegan">🥭 Alphonso</span>
+              <span class="meta-badge">🌿 Vegan</span>
+              <span class="meta-badge">❄️ Seasonal</span>
+            </div>
+            <p>Handcrafted Alphonso mango sorbet with a whisper of cardamom and lime zest. Light, dairy-free and divine.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹180</span>
+                <span class="price-note">2 scoops</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500&q=85" alt="Lava Cake" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Chocolate Lava Cake</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍫 Molten Centre</span>
+              <span class="meta-badge badge-fav">❤️ Must Try</span>
+              <span class="meta-badge">⏱ 15 min</span>
+            </div>
+            <p>Warm chocolate cake with a gooey molten centre, served with a scoop of vanilla bean ice cream. Life-changing.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹280</span>
+                <span class="price-note">with ice cream</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1516684732162-798a0062be99?w=500&q=85" alt="Creme Brulee" />
+            <div class="menu-card-overlay"><span>View Details</span></div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Crème Brûlée</h3>
+              <div class="rating">★★★★★</div>
+            </div>
+            <div class="menu-card-meta">
+              <span class="meta-badge badge-veg">🍮 French Classic</span>
+              <span class="meta-badge badge-new">✨ New</span>
+              <span class="meta-badge">⏱ Ready</span>
+            </div>
+            <p>Velvety vanilla custard topped with a perfectly caramelized sugar crust. Crack through it — pure joy.</p>
+            <div class="menu-card-footer">
+              <div class="price-wrap">
+                <span class="price">₹240</span>
+                <span class="price-note">per ramekin</span>
+              </div>
+              <button class="btn-sm btn-order"><i class="fa fa-plus"></i> Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+ ===================== -->
+  <section class="section section-dark" id="booking">
+    <div class="container">
+      <div class="booking-layout">
+        <div class="booking-info">
+          <p class="section-eyebrow light">Reserve Your Spot</p>
+          <h2 class="section-title light">Book a Table</h2>
+          <p class="section-desc light">Whether it's a quiet solo coffee session or a group brunch, we'd love to have you. Reserve your table and we'll make sure it's perfect for you.</p>
+          <ul class="booking-features">
+            <li><i class="fa fa-check-circle"></i> Instant confirmation</li>
+            <li><i class="fa fa-check-circle"></i> No booking fees</li>
+            <li><i class="fa fa-check-circle"></i> Easy modifications</li>
+            <li><i class="fa fa-check-circle"></i> Special requests welcome</li>
+          </ul>
+          <div class="booking-hours">
+            <div class="bh-row"><span>Mon – Fri</span><strong>8:00 AM – 10:00 PM</strong></div>
+            <div class="bh-row"><span>Sat – Sun</span><strong>9:00 AM – 11:00 PM</strong></div>
+          </div>
+        </div>
+
+        <!-- Booking Form — action points to booking.php -->
+        <div class="booking-form-wrap">
+          <form class="booking-form" id="bookingForm" action="booking.php" method="POST">
+            <h3>Fill In Your Details</h3>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name"><i class="fa fa-user"></i> Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Priya Sharma" required />
+              </div>
+              <div class="form-group">
+                <label for="phone"><i class="fa fa-phone"></i> Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 9876543210"
+                       pattern="[6-9][0-9]{9}" maxlength="10" minlength="10"
+                       title="Enter a valid 10-digit Indian mobile number" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="guests"><i class="fa fa-users"></i> Number of Guests *</label>
+                <select id="guests" name="guests" required>
+                  <option value="" disabled selected>Select guests</option>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                  <option value="6">6 People</option>
+                  <option value="7+">7+ (Large Group)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date"><i class="fa fa-calendar"></i> Date *</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="time"><i class="fa fa-clock"></i> Preferred Time *</label>
+                <select id="time" name="time" required>
+                  <option value="" disabled selected>Select time</option>
+                  <option value="08:00">8:00 AM</option>
+                  <option value="09:00">9:00 AM</option>
+                  <option value="10:00">10:00 AM</option>
+                  <option value="11:00">11:00 AM</option>
+                  <option value="12:00">12:00 PM</option>
+                  <option value="13:00">1:00 PM</option>
+                  <option value="14:00">2:00 PM</option>
+                  <option value="15:00">3:00 PM</option>
+                  <option value="16:00">4:00 PM</option>
+                  <option value="17:00">5:00 PM</option>
+                  <option value="18:00">6:00 PM</option>
+                  <option value="19:00">7:00 PM</option>
+                  <option value="20:00">8:00 PM</option>
+                  <option value="21:00">9:00 PM</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message"><i class="fa fa-comment"></i> Special Requests (Optional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="E.g. Window seat preferred, birthday celebration, dietary requirements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa fa-calendar-check"></i> Confirm Booking
+            </button>
+
+            <!-- ✅ Success / ❌ Error — shown by script.js after PHP redirect -->
+            <div id="successMsg" style="display:none; margin-top:16px; padding:18px 20px;
+              background:#e8f5ee; border:2px solid #2d7a4f; border-radius:10px;
+              color:#1a4a30; font-weight:600; font-size:1rem; align-items:center; gap:10px;">
+              <i class="fa fa-check-circle" style="font-size:1.4rem; color:#2d7a4f;"></i>
+              <span>🎉 <strong>Booking Confirmed!</strong> Thank you! We will call you shortly to confirm your table.</span>
+            </div>
+            <div id="errorMsg" style="display:none; margin-top:16px; padding:18px 20px;
+              background:#fde8e8; border:2px solid #b33030; border-radius:10px;
+              color:#6b1010; font-weight:600; font-size:.95rem; align-items:center; gap:10px;">
+              <i class="fa fa-exclamation-circle" style="font-size:1.4rem; color:#b33030;"></i>
+              <span id="errorText">Something went wrong. Please check your details and try again.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-images">
+          <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=500&q=80" alt="Café interior" class="about-img about-img-main" />
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=300&q=80" alt="Coffee being poured" class="about-img about-img-secondary" />
+          <div class="about-badge">
+            <span class="ab-num">5+</span>
+            <span class="ab-txt">Years of<br/>Crafting Joy</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 class="section-title">More Than Just<br />a Cup of Coffee</h2>
+          <p>Brew Haven was born in 2019 from a simple dream: to create a space in the heart of Bangalore where people could slow down, breathe, and connect — over a really, really good cup of coffee.</p>
+          <p>We source our beans directly from small farms in Coorg and Chikmagalur, roasting in small batches to preserve every subtle note. Our chefs bake fresh every morning, and our baristas train for months before they pull their first shot.</p>
+          <p>Whether you're here to work, to catch up with old friends, or simply to sit with a book — <em>this is your place.</em></p>
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">🌱</span>
+              <div><strong>Sustainably Sourced</strong><p>Direct-trade beans, eco-packaging.</p></div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">👩‍🍳</span>
+              <div><strong>Made Fresh Daily</strong><p>No shortcuts. Everything made in-house.</p></div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">❤️</span>
+              <div><strong>Community First</strong><p>We hire locally and give back.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section section-cream" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What Guests Say</p>
+        <h2 class="section-title">People Love Brew Haven</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"My go-to spot before work. The cold brew is insanely good and the vibes are just right. Staff always remember my order!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RK</div>
+            <div>
+              <strong>Rahul K.</strong>
+              <span>Software Engineer, Koramangala</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"We booked a table for a team lunch and it was absolutely perfect. The pesto pasta and the dark chocolate cake — I still think about them."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SP</div>
+            <div>
+              <strong>Sneha P.</strong>
+              <span>UX Designer, Indiranagar</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Best café atmosphere in Bangalore, no contest. I bring every out-of-town friend here. The matcha latte alone is worth the trip."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div>
+              <strong>Arjun M.</strong>
+              <span>Student, Christ University</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Moments at Brew Haven</p>
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-desc">A peek inside our cozy world.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500&q=80" alt="Café interior" />
+          <div class="gallery-overlay"><span>Interior</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="Coffee art" />
+          <div class="gallery-overlay"><span>Latte Art</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80" alt="Morning coffee" />
+          <div class="gallery-overlay"><span>Morning Brew</span></div>
+        </div>
+        <div class="gallery-item wide">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=700&q=80" alt="Café seating" />
+          <div class="gallery-overlay"><span>Our Space</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="Food plating" />
+          <div class="gallery-overlay"><span>Fresh Food</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow light">Find Us</p>
+        <h2 class="section-title light">Come Visit Us</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="fa fa-location-dot"></i>
+            <div>
+              <strong>Address</strong>
+              <p>42, 12th Main Road, Indiranagar<br />Bangalore, Karnataka – 560038</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fa fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fa fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <p>hello@brewhavencafe.in</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fa fa-clock"></i>
+            <div>
+              <strong>Hours</strong>
+              <p>Mon–Fri: 8:00 AM – 10:00 PM<br />Sat–Sun: 9:00 AM – 11:00 PM</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-google"></i></a>
+          </div>
+        </div>
+        <!-- Google Maps embed placeholder -->
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9617!2d77.6408!3d12.9784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae178c0000000%3A0x0!2sIndiranagar%2C%20Bengaluru!5e0!3m2!1sen!2sin!4v1234567890"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Brew Haven Café Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Brew Haven</span>
+        <p>Fresh Coffee. Cozy Vibes.<br/>Indiranagar, Bangalore.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Quick Links</strong>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#booking">Book a Table</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <strong>Opening Hours</strong>
+        <span>Mon–Fri: 8 AM – 10 PM</span>
+        <span>Sat–Sun: 9 AM – 11 PM</span>
+        <span>Public Holidays: 10 AM – 9 PM</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Brew Haven Café · Built with ❤️ in Bangalore</p>
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING BUTTONS ===================== -->
+  <a href="https://wa.me/919876543210?text=Hi%20Brew%20Haven!%20I%27d%20like%20to%20book%20a%20table."
+     class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
